@@ -13,7 +13,8 @@ body {
     ". . . . ."
     ". bt bt bt ."
     ". . rm . ."
-    ". tb tb tb .";
+    ". tb tb tb ."
+    ". . fm . .";
 }
 
 .remaining {
@@ -78,4 +79,28 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+
+.walletDiv {
+  grid-area: fm;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+#add-btn {
+  color: white;
+  background-color: #48BF84;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+#add-btn:hover{
+  opacity: 0.8;
 }
